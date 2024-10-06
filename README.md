@@ -26,11 +26,12 @@ The dataset contains lending activity records and serves as the basis for predic
 # Results  
 The follwing details provide balanced accuracy scores and the precision and recall scores of the machine learning models we used.
  - Machine Learning Model 1:
-     Logistic Regression Confusion Matrix
+   
+   -   Logistic Regression Confusion Matrix
 
       <img width="215" alt="image" src="https://github.com/user-attachments/assets/9577f14e-e5b6-4652-889b-fd5823edd4c7">
 
-      Logistic Regression Classification Report
+    -   Logistic Regression Classification Report
 
       <img width="395" alt="image" src="https://github.com/user-attachments/assets/df69fc8f-c29f-40a1-b61f-0f3c53b73d8a">
 
@@ -59,22 +60,20 @@ I recommend using the scikit-learn Logistic Regression model with lbfgs solver a
 
 Another way to say it, is to use this model as a first pass to streamline accepting loans but do not depend on it for rejecting loans. For trying to classify loans, trying to prevent "high-risk" loans is more important than giving out a loan as more money can be lost from a single loan that defaults than the interest earned from a loan, spend more time looking into the details based on the value of that loan to the lender prior to rejecting it.
 
-# Repo Notes
+# Getting Started
 
 # File Notes
   - credit_risk_classification.ipynb contains the code used for this analysis
   - Resources/lending_data.csv contains the data used in this analysis
   - The images folder contains images used in the analysis write-up
 
-# Getting Started
-
-  # Prerequisites
+# Prerequisites
   
 To run the jupyter notebook with the solution, you must have Python, jupyter notebook, pathlib, scikit-learn installed in your environment
 
 # Cloning Repo
 
-$ git clone 
+$ git clone https://github.com/EvgeniiaKei/credit-risk-classification.git
 
 $ cd credit-risk-classification
 
