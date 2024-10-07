@@ -65,7 +65,6 @@ Another way to say it, is to use this model as a first pass to streamline accept
 # File Notes
   - credit_risk_classification.ipynb contains the code used for this analysis
   - Resources/lending_data.csv contains the data used in this analysis
-  - The images folder contains images used in the analysis write-up
 
 # Prerequisites
   
